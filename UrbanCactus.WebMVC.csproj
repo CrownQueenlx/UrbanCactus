@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\UrbanCactus.Services\UrbanCactus.Services.csproj" />
+    <ProjectReference Include="UrbanCactus.Models\UrbanCactus.Models.csproj" />
+    <ProjectReference Include="..\UrbanCactus.Data\UrbanCactus.Data.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
